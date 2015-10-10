@@ -1,0 +1,4 @@
+
+完美解决sqlite的 database locked 或者是 error 5: database locked 问题 
+
+如果多线程同时读写（这里的指不同的线程用使用的是不同的Helper实例），后面的就会遇到android.database.sqlite.SQLiteException: database is locked这样的异常。
